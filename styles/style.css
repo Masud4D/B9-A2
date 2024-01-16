@@ -625,6 +625,7 @@ html {
   }
   .video-sec-right {
     background-image: url(../images/Group\ 40089.png);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -637,7 +638,7 @@ html {
   }
   .video-sec-right > h1 {
     width: 50%;
-    color: #fff;
+    color:antiquewhite;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
