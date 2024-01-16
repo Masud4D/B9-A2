@@ -1,18 +1,11 @@
-/* Global Styles */
-html {
-    font-family: "Mulish", sans-serif;
-  }
-  body {
-    width: 100%;
-    height: auto;
-  }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
   }
-  /* Variables */
+  
   :root {
     --primary-color: #ff5400;
     --description-color: #424247;
@@ -20,7 +13,7 @@ html {
     --heading-color: #131318;
     --menu-link-color: #424247;
   }
-  /* common styles */
+  
   .common-h1 {
     color: var(--heading-color);
     font-size: 36px;
@@ -63,9 +56,6 @@ html {
     font-size: 22px;
     font-weight: 800;
   }
-  /* Styling Start */
-  
-  /* Nav Menu */
   
   .header {
     width: 90%;
@@ -121,8 +111,7 @@ html {
     font-size: 16px;
     font-weight: 700;
   }
-  /* nav end */
-  /* header start */
+  
   .header-banner {
     width: 100%;
     margin: 80px auto;
@@ -224,13 +213,12 @@ html {
     font-size: 16px;
     font-weight: 600;
   }
-  /* header styles end */
-  /* main sec */
+  
   .main {
     width: 90%;
     margin: 0 auto;
   }
-  /* popular tour sec */
+  
   .popular-tour-sec {
     width: 100%;
     display: grid;
@@ -277,7 +265,7 @@ html {
   .popular-tour-right > img {
     width: 100%;
   }
-  /* destination gallery */
+  
   .destination-sec {
     width: 100%;
     margin: 100px auto;
@@ -462,8 +450,6 @@ html {
     background: rgba(19, 19, 24, 0.6);
     transition: 0.3s;
   }
-  /* destination sec end */
-  /* why choose us sec start */
   
   .choose-us-sec {
     margin: 100px auto;
@@ -511,8 +497,7 @@ html {
     background: rgba(233, 68, 68, 0.05);
     padding: 30px;
   }
-  /* why choose us sec end */
-  /* deals section start */
+  
   .deals-sec {
     width: 100%;
     display: flex;
@@ -597,9 +582,7 @@ html {
     margin-top: 50px;
     align-self: center;
   }
-  /* deals sec end */
   
-  /* video sec start */
   .video-sec {
     width: 100%;
     margin: 100px auto;
@@ -661,8 +644,7 @@ html {
     font-weight: 800;
     padding: 12px 24px;
   }
-  /* video sec end */
-  /* newsletter sec */
+
   .newsletter-sec {
     width: 100%;
     margin: 100px auto;
@@ -725,7 +707,7 @@ html {
     color: #5a5a5d;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
   }
   .newsletter-sec-left > input[type="text"],
   input[type="email"] {
@@ -738,9 +720,7 @@ html {
   input[type="email"]:focus {
     outline: 0;
   }
-  /* newsletter sec end*/
   
-  /* footer start */
   .footer {
     width: 100%;
     margin-top: 100px;
@@ -769,11 +749,9 @@ html {
     gap: 30px;
     margin-bottom: 60px;
   }
-  /* footer end */
   
-  /* media query  */
   @media screen and (max-width: 600px) {
-    /* header part */
+    
     .menu-icon {
       display: block;
     }
